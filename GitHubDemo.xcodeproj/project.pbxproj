@@ -13,6 +13,7 @@
 		D7EA78BF29F2419900C9E293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EA78BE29F2419900C9E293 /* Preview Assets.xcassets */; };
 		D7EA78CA29F2419900C9E293 /* GitHubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA78C929F2419900C9E293 /* GitHubDemoTests.swift */; };
 		D7EA78D529F2419900C9E293 /* GitHubDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA78D429F2419900C9E293 /* GitHubDemoUITests.swift */; };
+		D7EA78E629F2492D00C9E293 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA78E529F2492D00C9E293 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D7EA78D029F2419900C9E293 /* GitHubDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EA78D429F2419900C9E293 /* GitHubDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubDemoUITests.swift; sourceTree = "<group>"; };
 		D7EA78D629F2419900C9E293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7EA78E529F2492D00C9E293 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				D7EA78B729F2419700C9E293 /* GitHubDemoApp.swift */,
 				D7EA78B929F2419700C9E293 /* MainViewswift */,
+				D7EA78E529F2492D00C9E293 /* SecondView.swift */,
 				D7EA78BB29F2419900C9E293 /* Assets.xcassets */,
 				D7EA78C029F2419900C9E293 /* Info.plist */,
 				D7EA78BD29F2419900C9E293 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7EA78E629F2492D00C9E293 /* SecondView.swift in Sources */,
 				D7EA78BA29F2419700C9E293 /* MainViewswift in Sources */,
 				D7EA78B829F2419700C9E293 /* GitHubDemoApp.swift in Sources */,
 			);
